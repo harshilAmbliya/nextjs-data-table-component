@@ -57,7 +57,7 @@ export default function Home() {
       <div className=" p-10 border border-slate-200 rounded-md ">
         {<div>
           <DataTable
-            className="text-center"
+            className="text-center font-semibold"
             columns={columns}
             data={tableData}
             progressPending={domLoaded}
